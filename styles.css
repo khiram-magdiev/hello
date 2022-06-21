@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.hello-bg {
+    width: 560px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(img/bg.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.hello-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-text1 {
+    text-transform: uppercase;
+    font-size: 76px;
+    color: #fff;
+    text-shadow: 5px 5px 1px #486a45;
+}
+
+
+.hello-text2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 76px;
+    color: #fff;
+    text-shadow: -5px -5px 1px #d9403a;
+}
